@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <!-- weather header -->
+        <div class="search-bar">
+            <form class="weather-search">
+                <input type="text" class="city-search" placeholder="Search your city..." autocomplete="off">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+
+        <!-- weather main data -->
+         <div class="weather-body">
+            <h1 class="weather-city">London, United Kingdom</h1>
+            <p class="weather-data-time">Frida, February 23, 2024 at 10:37 AM</p>
+            <div class="weather-data">
+                <div class="weather-forecast">Clouds</div>
+                <div class="weather-icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+            </div>
+            <p class="weather-temperature">278&#176</p>
+            <div class="weather-minmax">
+                <p class="weather-min">Min: 277&#176</p>
+                <p class="weather-max">Max: 279&#176</p>
+            </div>
+         </div>
+        
+         <!-- weather info -->
+        <section class="weather-info">
+            <div class="weather-card">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div class="card-text">
+                    <p>Feels Like</p>
+                    <p class="wether-feels-like">15&#176</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="card-text">
+                    <p>Humidity</p>
+                    <p class="humidity">89%</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="fa-solid fa-wind"></i>
+                <div class="card-text">
+                    <p>Wind</p>
+                    <p class="wind">3.58 m/s</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="fa-solid fa-gauge"></i>
+                <div class="card-text">
+                    <p>Pressure</p>
+                    <p class="pressure">983 hpa</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <input type="text" class="input-field" placeholder="Search any place..." autocomplete="off">
+<button class="search-btn">Search</button> -->
+
+<!-- <div class="weather-details">
+    <div class="place-data">
+        <h1 class="place-name">City, Cuntry</h1>
+        <h3 class="more-info">Friday, February 23, 2024 at 10:25 AM</h3>
+    </div>
+    <div class="weather-data"></div>
+    <div class="temp-data"></div>
+</div> -->
